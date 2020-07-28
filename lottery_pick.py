@@ -8,8 +8,7 @@ while len(picked_numbers) < 6:
         iterator = randint(1, len(lottery_numbers))
         if number == iterator: 
             picked_numbers.append(number)
-            lottery_numbers.remove(number)
-    
+            lottery_numbers.remove(number) 
 
 for number in picked_numbers:
     print (number)
