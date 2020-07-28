@@ -1,8 +1,9 @@
-x = 1
+#number = input("Input Number ")
+number = 5
 
-def number_loop(x):
-    while x <= 10:
-        print (x)
-        x += 1
+def count_to_ten(number):
+    while number <= 10:
+        print (number)
+        number += 1
 
-number_loop(x)
+count_to_ten(number)
