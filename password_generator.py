@@ -5,10 +5,13 @@ password = []
 
 while len(password) < 6: 
     letter_or_number = randint(0, 1)
+    capital_true_false = randint(0, 1)
     if letter_or_number == 0:  
         next_character_index = randint(0, 25)
-        next_character = letters[next_character_index]
-        password.append(next_character)
+        if capital_true_false == 1: 
+            password.append(letters[next_character_index].upper())
+        elif capital_true_false == 0:
+            password.append(letters[next_character_index])
     elif letter_or_number == 1:
         password.append(randint(0, 9))
 
