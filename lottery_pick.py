@@ -1,6 +1,12 @@
-lottery_numbers = [1, 2, 3, 4, 5]
+from random import * 
 
+lottery_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+
+iterator = randint(1, 25)
+#print (iterator)
 for number in lottery_numbers: 
-    print (number) 
-    number += 1
+    if number == iterator: 
+        print (iterator) 
+        lottery_numbers.remove(number)
+    
     
