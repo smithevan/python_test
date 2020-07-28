@@ -1,8 +1,8 @@
 x = 1
 
-def hello_loop(x):
+def number_loop(x):
     while x <= 10:
         print (x)
         x += 1
 
-hello_loop(x)
+number_loop(x)
