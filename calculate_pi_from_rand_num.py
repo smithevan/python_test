@@ -6,7 +6,7 @@ import random
 def estimate_pi(points):
     points_in_circle = 0
     points_in_square = 0
-    for i in range(points):
+    for _ in range(points):
         x = random.uniform(0, 1)
         y = random.uniform(0, 1)
         distance_point_to_origin = math.sqrt(x**2 + y**2)
