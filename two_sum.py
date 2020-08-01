@@ -17,7 +17,7 @@ def two_sum(array, target):
             elif first_number != 0 and second_number != 0:
                 first_number = second_number
                 second_number = array[array_element]
-    return first_number + second_number
+            return [array_element - 1, array_element + 1]
 
 print(two_sum(array_set, target))
         
