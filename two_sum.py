@@ -8,10 +8,10 @@ target = 10
 def two_sum(array, target):
     first_number = 0
     second_number = 0
-    for x in array: 
+    for x in range(len(array)): 
         first_number = array[x]
         first_number_index = x
-        for y in array: 
+        for y in range(len(array)): 
             second_number = array[y]
             second_number_index = y
             if first_number + second_number == target:
