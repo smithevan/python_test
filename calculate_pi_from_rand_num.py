@@ -1,7 +1,7 @@
+#recreating solution to problem found online with a few modifications 
 #Given a random set of numbers, determine pi: following along with example on youtube
 import math
 import random 
-
 
 def estimate_pi(points):
     points_in_circle = 0
