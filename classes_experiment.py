@@ -1,8 +1,6 @@
-class Dog:
+class Plane:
 
-    def bark(self):
-        print ("woof")
+    def fly(self):
+        print ("I'm Flying")
 
-
-fido = Dog
-
+BA747 = Plane
