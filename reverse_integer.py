@@ -28,12 +28,9 @@ def reverse(integer):
     while 0 in reversed_int_array: 
         reversed_int_array.remove(0)
     
-    print(reversed_int_array)
-    
     reversed_int = 0 
     for i in range(len(reversed_int_array)):
         length = 6 - i
-        
         reversed_int = reversed_int + reversed_int_array[i]
     reversed_int = int(reversed_int / (10 ** length))
     

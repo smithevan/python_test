@@ -1,7 +1,7 @@
 #return median of two sorted arrays 
 
 array1 = [1, 4, 6, 7, 16, 22]
-array2 = [3, 5, 8, 9, 12, 14]
+array2 = [3, 5, 8, 9, 12, 14, 18]
 #median is 7.5
 
 def get_median(array1, array2):
@@ -13,6 +13,10 @@ def get_median(array1, array2):
         second_number = int(number_of_elements / 2)
         median = (full_array[first_number] + full_array[second_number]) / 2
         return median
-    #elif number_of_elements % 2 > 0: 
+    elif number_of_elements % 2 != 0: 
+        target_element = int(number_of_elements / 2)
+        median = full_array[target_element]
+        return median 
+
 
 print(get_median(array1, array2))
