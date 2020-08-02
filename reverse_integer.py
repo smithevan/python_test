@@ -27,9 +27,6 @@ def reverse(integer):
   
     while 0 in reversed_int_array: 
         reversed_int_array.remove(0)
-
-
-
     
     print(reversed_int_array)
     
@@ -41,6 +38,5 @@ def reverse(integer):
     reversed_int = int(reversed_int / (10 ** length))
     
     return reversed_int
-
-
+    
 print(reverse(integer))
