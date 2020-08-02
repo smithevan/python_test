@@ -1,6 +1,6 @@
 #Test out how classes, abstract classes and inheritances work in python 
 
-class Vehicle: 
+class Transportation: 
 
     def __init__(self, name, speed): 
         self.name = name
@@ -12,12 +12,12 @@ class Vehicle:
     def get_speed(self):
         print(self.speed)
 
-class Plane(Vehicle):
+class Plane(Transportation):
 
     def fly(self):
         print ("I'm Flying")
 
-class Car(Vehicle): 
+class Car(Transportation): 
 
     def drive(self):
         print ("I'm driving")
