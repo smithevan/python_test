@@ -1,3 +1,5 @@
+#Test out how classes, abstract classes and inheritances work in python 
+
 class Vehicle: 
 
     def __init__(self, name, speed): 
